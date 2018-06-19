@@ -4,7 +4,9 @@
 
 def fizzbuzz(x)
   # if a number is divisible by 3, return "fizz"
-  if x%3
+  if x%3 == 0
+    puts "fizz"
+  end
 end
 
 fizzbuzz(3)
